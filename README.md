@@ -2,25 +2,6 @@
 
 ## Object Oriented Programming Mini Project
 
-### Submitted By
-
-- **Aakarsh Jha** - Roll No. 39 (230905248)  
-- **Hiten Raj Singh** - Roll No. 23 (230905152)  
-- **Dhruv Grover** - Roll No. 55 (230905434)  
-- **Pratishthraj Singh Chauhan** - Roll No. 7 (230905036)  
-- **Akshat Rana** - Roll No. 60 (230905496)  
-
-**Section C**
-
-**Submitted to:**  
-Dr. Andrew J  
-Associate Professor  
-Department of Computer Science and Engineering  
-Manipal Institute of Technology, Manipal, Karnataka – 576104  
-**Date:** October 2024  
-
----
-
 ## Introduction
 
 The Smart Healthcare Management System (SHMS) is designed to address challenges in the healthcare sector by integrating various functionalities to streamline workflows and improve patient care. Built using JavaFX and core Java, SHMS offers:
