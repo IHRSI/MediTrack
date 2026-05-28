@@ -1,101 +1,273 @@
-# Smart Healthcare Management System (SHMS)
+# 🏥 Smart Healthcare Management System (SHMS)
 
-## Object Oriented Programming Mini Project
+> A JavaFX-based healthcare management system designed to streamline patient care, appointment scheduling, and doctor management through an interactive GUI and persistent data storage.
 
-## Introduction
-
-The Smart Healthcare Management System (SHMS) is designed to address challenges in the healthcare sector by integrating various functionalities to streamline workflows and improve patient care. Built using JavaFX and core Java, SHMS offers:
-
-- Centralized patient records
-- Appointment scheduling
-- Doctor/staff management
-- Persistent data storage
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
+![JavaFX](https://img.shields.io/badge/JavaFX-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-Concepts-blue?style=for-the-badge)
+![File%20Handling](https://img.shields.io/badge/File%20Handling-Java-green?style=for-the-badge)
 
 ---
 
-## Problem Statement
+## 📌 Overview
 
-Design and implement a robust SHMS to:
-- Digitize patient records
-- Schedule appointments efficiently
-- Manage doctor and staff profiles
-- Enhance data accessibility and integrity
+The **Smart Healthcare Management System (SHMS)** is an **Object-Oriented Programming mini project** developed using **JavaFX** and **Core Java** to improve healthcare management by digitizing records, optimizing appointment scheduling, and managing doctor/staff information efficiently.
 
----
+The system provides a **centralized platform** for managing patient data, doctor allocation, and appointment scheduling while ensuring **persistent data storage** across sessions.
 
-## System Modules
+### ✨ Key Highlights
 
-### 1. Patient Registration and Medical Records
-
-- **Technologies**: JavaFX for GUI, Java for logic
-- **Features**:
-  - Patient registration form with fields for medical history, allergies, emergency contacts
-  - Object model using a `Patient` class
-  - Data displayed and managed via JavaFX TextFields and TextArea
-  - Persistent storage using file system
-
-### 2. Appointment Scheduling and Doctor Allocation
-
-- **Appointment Class**:
-  - Encapsulates `Patient` and `Doctor` objects
-  - `toString()` method for readable output
-
-- **AppointmentScheduling Class**:
-  - GUI for booking appointments using TextFields and ComboBox
-  - Filters doctors by specialization using Java Streams
-  - Validates and books appointments
-  - Real-time feedback via TextArea
-
-### 3. Doctor and Staff Management
-
-- **DoctorManagement Class**:
-  - Add, view, and clear doctor data
-  - Uses JavaFX TextFields and Buttons
-  - Stores data persistently via file utilities
-  - Structured GUI using VBox layout
-
-### 4. Data Persistence
-
-- Uses Java I/O (BufferedReader/Writer)
-- Data files:
-  - `patients.txt`
-  - `doctors.txt`
-  - `appointments.txt`
-- Ensures data survives application restarts
-- Supports error handling and data consistency
-
-### 5. Compiling and Running
-
-- Use `javac` for compiling `.java` files
-- Use `java` command to run the JavaFX application
-- The GUI covers:
-  - Patient registration
-  - Appointment scheduling
-  - Doctor management
+✔️ Centralized Patient Records
+✔️ Appointment Scheduling & Doctor Allocation
+✔️ Doctor & Staff Management
+✔️ Persistent File-Based Storage
+✔️ Interactive JavaFX GUI
+✔️ Modular OOP-Based Design
 
 ---
 
-## Sample Screenshots
+## 🎯 Problem Statement
 
-> _Note: Screenshots include interfaces for patient registration, appointment booking, and doctor management._
+Traditional healthcare systems often struggle with inefficient record keeping, scheduling conflicts, and poor data accessibility.
 
----
+The objective of **SHMS** is to build a reliable and scalable healthcare system that:
 
-## Conclusion
-
-SHMS provides a modular, maintainable, and scalable solution for hospital management using Java and JavaFX. Key benefits:
-
-- MVC architecture for separation of concerns
-- Persistent storage with I/O streams
-- Responsive and interactive GUI
-- Easily extendable for future enhancements like database support or web deployment
+* Digitizes patient medical records
+* Enables seamless appointment scheduling
+* Manages doctor and staff information efficiently
+* Improves healthcare workflow and accessibility
+* Maintains secure and persistent data storage
 
 ---
 
-## References
+## 🏗️ System Architecture
 
-- [JavaFX Documentation](https://openjfx.io/)
-- [Oracle Java Downloads](https://www.oracle.com/in/java/technologies/downloads/)
-- [Ubuntu Setup](https://ubuntu.com/download/desktop)
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-- [JavaFX Tutorials](https://www.youtube.com/playlist?list=PLZPZq0r_RZOM-8vJA3NQFZB7JroDcMwev)
+The project follows an **Object-Oriented Design** approach using modular classes and JavaFX components for better maintainability and scalability.
+
+### Modules Included:
+
+1. **Patient Registration & Medical Records**
+2. **Appointment Scheduling & Doctor Allocation**
+3. **Doctor & Staff Management**
+4. **Data Persistence using Java I/O**
+5. **Interactive GUI using JavaFX**
+
+---
+
+## 🚀 Features
+
+### 👨‍⚕️ Patient Registration & Medical Records
+
+* Register new patients
+* Store medical history, allergies, treatments, and emergency contacts
+* View patient database
+* Clear patient records
+* Persistent storage using text files
+
+### 📅 Appointment Scheduling & Doctor Allocation
+
+* Book appointments with available doctors
+* Filter doctors by specialization
+* Doctor availability validation
+* Real-time appointment feedback
+* Structured appointment management
+
+### 🩺 Doctor & Staff Management
+
+* Add doctor details
+* View all doctors
+* Clear doctor records
+* Specialization-based management
+* Persistent data handling
+
+### 💾 Data Persistence
+
+Data is stored using **Java File Handling** to ensure information remains available even after restarting the application.
+
+Files used:
+
+```txt
+patients.txt
+doctors.txt
+appointments.txt
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Languages & Technologies
+
+* **Java**
+* **JavaFX**
+* **Core Java**
+* **Java Collections Framework**
+* **Java Streams API**
+* **BufferedReader / BufferedWriter**
+
+### Core Concepts Used
+
+* Object-Oriented Programming (OOP)
+* Encapsulation
+* Inheritance
+* Polymorphism
+* MVC Architecture
+* Event-Driven Programming
+* File Handling
+
+---
+
+## 📂 Project Structure
+
+```bash
+SHMS/
+│── src/
+│   ├── model/
+│   ├── ui/
+│   ├── utils/
+│   ├── Patient.java
+│   ├── Doctor.java
+│   ├── Appointment.java
+│
+│── data/
+│   ├── patients.txt
+│   ├── doctors.txt
+│   ├── appointments.txt
+│
+│── README.md
+```
+
+---
+
+## ▶️ Installation & Setup
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/SHMS.git
+cd SHMS
+```
+
+### Compile Project
+
+```bash
+javac *.java
+```
+
+### Run Application
+
+```bash
+java Main
+```
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Homepage
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/709dd473-e461-4ce3-911f-82c4fb45d069" width="800"/>
+</p>
+
+---
+
+### 👤 Patient Registration
+
+#### Registration Interface
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b143e2d2-cdf1-451e-81da-8fd0e43a8a00" width="800"/>
+</p>
+
+#### Patient Database
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fbe1de89-ad6b-4af4-91ff-3357683f7898" width="800"/>
+</p>
+
+---
+
+### 🩺 Doctor Management
+
+#### Doctor Details
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/053a9f11-883b-4432-bc32-4f8c468b5be8" width="800"/>
+</p>
+
+#### Doctor Database
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/92c53d88-f3d9-42b6-aec8-eb9b806c890f" width="800"/>
+</p>
+
+---
+
+### 📅 Appointment Scheduling
+
+#### Booking Appointment
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/64a05b62-d815-4bbe-aedd-5d6cc25cf870" width="800"/>
+</p>
+
+#### Appointment Database
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2a124066-c407-4cb7-a628-9a26d4e05769" width="800"/>
+</p>
+
+#### Patient Not Registered
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bffd3407-82b3-456b-90ad-7f78c3f9e32a" width="800"/>
+</p>
+
+#### Doctor Non-Availability
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a5988dcc-76db-4cfb-b3d4-6def41106f37" width="800"/>
+</p>
+
+---
+
+## 📈 Future Enhancements
+
+* Database Integration (MySQL/PostgreSQL)
+* Authentication System
+* Prescription Management
+* Analytics Dashboard
+* Cloud-Based Deployment
+* Web-Based Version
+
+---
+
+## 🧠 Learning Outcomes
+
+This project strengthened practical understanding of:
+
+* JavaFX GUI Development
+* Object-Oriented Programming
+* File Handling & Persistence
+* MVC Architecture
+* Event-Driven Programming
+* Modular Software Design
+
+---
+
+## 🏁 Conclusion
+
+The **Smart Healthcare Management System (SHMS)** demonstrates a modular and scalable approach to healthcare management using **JavaFX and Core Java**.
+
+By integrating **patient registration**, **doctor management**, **appointment scheduling**, and **persistent storage**, the system simplifies hospital workflows and improves healthcare accessibility.
+
+Its extensible architecture makes it suitable for future upgrades such as **database integration, authentication systems, and web deployment**.
+
+---
+
+## 📚 References
+
+* JavaFX Documentation: https://openjfx.io/
+* Oracle Java Documentation: https://www.oracle.com/java/
+* JavaFX Tutorials: https://www.youtube.com/playlist?list=PLZPZq0r_RZOM-8vJA3NQFZB7JroDcMwev
