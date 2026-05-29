@@ -7,6 +7,8 @@
 ![OOP](https://img.shields.io/badge/OOP-Concepts-blue?style=for-the-badge)
 ![File%20Handling](https://img.shields.io/badge/File%20Handling-Java-green?style=for-the-badge)
 
+[![Documentation](https://img.shields.io/badge/View-Project_Documentation-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/IHRSI/MediTrack/blob/main/SHMS.pdf)
+
 ---
 
 ## 📌 Overview
@@ -159,76 +161,6 @@ javac *.java
 ```bash
 java Main
 ```
-
----
-
-## 📸 Screenshots
-
-### 🏠 Homepage
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/709dd473-e461-4ce3-911f-82c4fb45d069" width="800"/>
-</p>
-
----
-
-### 👤 Patient Registration
-
-#### Registration Interface
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/b143e2d2-cdf1-451e-81da-8fd0e43a8a00" width="800"/>
-</p>
-
-#### Patient Database
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/fbe1de89-ad6b-4af4-91ff-3357683f7898" width="800"/>
-</p>
-
----
-
-### 🩺 Doctor Management
-
-#### Doctor Details
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/053a9f11-883b-4432-bc32-4f8c468b5be8" width="800"/>
-</p>
-
-#### Doctor Database
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/92c53d88-f3d9-42b6-aec8-eb9b806c890f" width="800"/>
-</p>
-
----
-
-### 📅 Appointment Scheduling
-
-#### Booking Appointment
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/64a05b62-d815-4bbe-aedd-5d6cc25cf870" width="800"/>
-</p>
-
-#### Appointment Database
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2a124066-c407-4cb7-a628-9a26d4e05769" width="800"/>
-</p>
-
-#### Patient Not Registered
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/bffd3407-82b3-456b-90ad-7f78c3f9e32a" width="800"/>
-</p>
-
-#### Doctor Non-Availability
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a5988dcc-76db-4cfb-b3d4-6def41106f37" width="800"/>
-</p>
 
 ---
 
